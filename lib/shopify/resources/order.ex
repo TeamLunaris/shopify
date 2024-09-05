@@ -30,6 +30,7 @@ defmodule Shopify.Order do
   }
 
   defstruct [
+    :app_id,
     :billing_address,
     :browser_ip,
     :buyer_accepts_marketing,
